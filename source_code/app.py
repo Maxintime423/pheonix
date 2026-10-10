@@ -6,9 +6,13 @@ server = Flask(__name__)
 def index():
     return render_template('index.html')
 
+
 @server.route('/download')
 def download():
-    return send_from_directory(
-        "p1/dwl" ,
-        "econland.apk"
-    )
+    return render_template('download.html')
+@server.route('/dld')
+def dld():
+    return redirect(url_for('download'))
+
+if __name__ == "__main__":
+    server.run()
