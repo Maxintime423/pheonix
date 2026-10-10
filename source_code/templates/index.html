@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <title>EconLand</title>
-    <link rel="stylesheet" href="../static/style.css">
+    <link rel="manifest" href="{{ url_for('manifest') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('{{ url_for("service_worker") }}')
+                    .catch((error) => console.error('Service worker registration failed:', error));
+            });
+        }
+    </script>
 </head>
 <body>
     <div class="main">
