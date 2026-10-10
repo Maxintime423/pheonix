@@ -1,0 +1,283 @@
+{
+  "land in danger": {
+    "name": "Land around the world which is in danger",
+    "ABOut": "Land is under pressure from economic activities such as intensive production, resource extraction, and expanding cities.",
+    "overview": "This example dashboard shows how land pressure could be explored. All numbers below are fictional placeholders, not real-world measurements.",
+    "Number of Charts": 2,
+    "chart1": {
+      "title": "Example pressures on land",
+      "type": "bar graph",
+      "dataset1": [38, 27, 21, 14],
+      "Labels": ["Farming", "Urban growth", "Extraction", "Other"],
+      "content": "Illustrative index of different pressures. Replace with sourced data and define the unit before use."
+    },
+    "chart2": {
+      "title": "Example land condition",
+      "type": "piechart",
+      "dataset1": [35, 30, 20, 15],
+      "Labels": ["Healthy", "Under pressure", "Degraded", "Unknown"],
+      "content": "Fictional shares provided to demonstrate the chart format."
+    }
+  },
+  "economy and land": {
+    "name": "How the economy and land are connected",
+    "ABOut": "Economic activity depends on land, while the way land is used can affect communities, ecosystems, and future growth.",
+    "overview": "Explore the relationship between economic sectors and the land resources they rely on. The sample values are fictional.",
+    "Number of Charts": 3,
+    "chart1": {
+      "title": "Example activity by sector",
+      "type": "bar graph",
+      "dataset1": [24, 32, 29, 15],
+      "Labels": ["Agriculture", "Industry", "Services", "Other"],
+      "content": "Illustrative activity index by sector, not a share of GDP."
+    },
+    "chart2": {
+      "title": "Example land use",
+      "type": "piechart",
+      "dataset1": [40, 25, 20, 15],
+      "Labels": ["Agriculture", "Forest", "Built-up", "Other"],
+      "content": "Fictional land-use shares that add up to 100."
+    },
+    "chart3": {
+      "title": "Example land productivity",
+      "type": "bar graph",
+      "dataset1": [58, 63, 69, 74],
+      "Labels": ["2021", "2022", "2023", "2024"],
+      "content": "Fictional productivity index to compare economic output with land use."
+    }
+  },
+  "urban growth": {
+    "name": "Urban growth and changing land use",
+    "ABOut": "As towns and cities grow, land may shift from farms or natural areas to housing, roads, and other built infrastructure.",
+    "overview": "This topic can help compare urban expansion with changes in surrounding land. All chart values are fictional examples.",
+    "Number of Charts": 1,
+    "chart1": {
+      "title": "Example built-up land growth",
+      "type": "bar graph",
+      "dataset1": [12, 16, 21, 27, 33],
+      "Labels": ["2020", "2021", "2022", "2023", "2024"],
+      "content": "Illustrative index over time. Use consistent, sourced measurements for real analysis."
+    }
+  },
+  "deforestation": {
+      "name": "Deforestation and changing land",
+      "ABOut": "Forests can be cleared for farming, infrastructure, and other economic activities.",
+      "overview": "This example explores possible changes in forest cover. All values are fictional and should be replaced with verified data.",
+      "Number of Charts": 3,
+      "chart1": {
+        "title": "Example forest cover change",
+        "type": "bar graph",
+        "dataset1": [82, 77, 71, 66, 60],
+        "Labels": ["2020", "2021", "2022", "2023", "2024"],
+        "content": "Illustrative forest-cover index, not a measured area."
+      },
+      "chart2": {
+        "title": "Example drivers of forest loss",
+        "type": "piechart",
+        "dataset1": [40, 25, 20, 15],
+        "Labels": ["Agriculture", "Logging", "Infrastructure", "Other"],
+        "content": "Fictional shares showing how causes could be compared."
+      },
+      "chart3": {
+        "title": "Example forest restoration",
+        "type": "bar graph",
+        "dataset1": [20, 29, 37, 48],
+        "Labels": ["2021", "2022", "2023", "2024"],
+        "content": "Fictional restoration progress index."
+      }
+    },
+    "soil health": {
+      "name": "Soil health and sustainable production",
+      "ABOut": "Healthy soil supports food production, stores carbon, and helps ecosystems withstand changing conditions.",
+      "overview": "Soil indicators can help show how land management supports long-term economic and environmental outcomes. Sample data is fictional.",
+      "Number of Charts": 4,
+      "chart1": {
+        "title": "Example soil health indicators",
+        "type": "bar graph",
+        "dataset1": [72, 58, 81, 64],
+        "Labels": ["Organic matter", "Moisture", "Cover", "Structure"],
+        "content": "Illustrative indicator scores on a made-up 0-100 scale."
+      },
+      "chart2": {
+        "title": "Example soil condition",
+        "type": "piechart",
+        "dataset1": [55, 30, 15],
+        "Labels": ["Healthy", "At risk", "Degraded"],
+        "content": "Fictional land shares by soil condition."
+      },
+      "chart3": {
+        "title": "Example soil moisture",
+        "type": "bar graph",
+        "dataset1": [61, 74, 57, 80],
+        "Labels": ["Spring", "Summer", "Autumn", "Winter"],
+        "content": "Fictional seasonal soil-moisture index."
+      },
+      "chart4": {
+        "title": "Example soil management",
+        "type": "piechart",
+        "dataset1": [48, 32, 20],
+        "Labels": ["Crop rotation", "Cover crops", "Other"],
+        "content": "Fictional shares of example soil-care practices."
+      }
+    },
+    "agriculture and land": {
+      "name": "Agriculture, livelihoods, and land",
+      "ABOut": "Agriculture provides livelihoods and food, while farming practices influence soil, water, and habitat.",
+      "overview": "This topic compares example agricultural activity and land allocation. Values are fictional placeholders.",
+      "Number of Charts": 2,
+      "chart1": {
+        "title": "Example agricultural output",
+        "type": "bar graph",
+        "dataset1": [18, 23, 21, 29, 32],
+        "Labels": ["2020", "2021", "2022", "2023", "2024"],
+        "content": "Illustrative production index, not actual crop output."
+      },
+      "chart2": {
+        "title": "Example agricultural land allocation",
+        "type": "piechart",
+        "dataset1": [46, 24, 18, 12],
+        "Labels": ["Crops", "Pasture", "Fallow", "Other"],
+        "content": "Fictional shares of agricultural land."
+      }
+    },
+    "water and land": {
+      "name": "Water resources and land use",
+      "ABOut": "Land use affects water quality and availability, and access to water shapes the kinds of economic activity land can support.",
+      "overview": "Explore example water use and land pressures together. All chart values are made up for demonstration.",
+      "Number of Charts": 2,
+      "chart1": {
+        "title": "Example water use by sector",
+        "type": "bar graph",
+        "dataset1": [68, 19, 13],
+        "Labels": ["Agriculture", "Industry", "Households"],
+        "content": "Illustrative water-use index; not real consumption figures."
+      },
+      "chart2": {
+        "title": "Example watershed land cover",
+        "type": "piechart",
+        "dataset1": [35, 30, 22, 13],
+        "Labels": ["Forest", "Agriculture", "Built-up", "Wetland"],
+        "content": "Fictional land-cover breakdown for a watershed."
+      }
+    },
+    "climate change and land": {
+      "name": "Climate change, land, and resilience",
+      "ABOut": "Land can absorb climate impacts and store carbon, but changing climate conditions also affect ecosystems and livelihoods.",
+      "overview": "Example indicators show how a dashboard could track land-related resilience and emissions. The data is fictional.",
+      "Number of Charts": 2,
+      "chart1": {
+        "title": "Example land resilience indicators",
+        "type": "bar graph",
+        "dataset1": [54, 63, 59, 72],
+        "Labels": ["Soil", "Tree cover", "Water", "Biodiversity"],
+        "content": "Illustrative resilience scores on a made-up 0-100 scale."
+      },
+      "chart2": {
+        "title": "Example land-related emissions",
+        "type": "piechart",
+        "dataset1": [38, 27, 20, 15],
+        "Labels": ["Agriculture", "Land clearing", "Fires", "Other"],
+        "content": "Fictional shares for explaining a possible emissions breakdown."
+      }
+    },
+    "mining and land": {
+      "name": "Mining, livelihoods, and land restoration",
+      "ABOut": "Mining can support jobs and production while changing land and water, making restoration and responsible planning important.",
+      "overview": "This sample compares illustrative land impacts and restoration progress. Values are fictional.",
+      "Number of Charts": 2,
+      "chart1": {
+        "title": "Example mine-site land status",
+        "type": "bar graph",
+        "dataset1": [26, 31, 23, 20],
+        "Labels": ["Active", "Restoring", "Restored", "Other"],
+        "content": "Illustrative index by site status, not site counts or measured area."
+      },
+      "chart2": {
+        "title": "Example restoration spending",
+        "type": "piechart",
+        "dataset1": [40, 30, 18, 12],
+        "Labels": ["Soil", "Water", "Replanting", "Monitoring"],
+        "content": "Fictional breakdown of a restoration budget."
+      }
+    },
+    "biodiversity and economy": {
+      "name": "Biodiversity, natural land, and the economy",
+      "ABOut": "Healthy ecosystems provide benefits that communities and economies rely on, from pollination to clean water.",
+      "overview": "This topic illustrates how biodiversity indicators and land categories could be explored together. Sample data is fictional.",
+      "Number of Charts": 2,
+      "chart1": {
+        "title": "Example ecosystem condition",
+        "type": "bar graph",
+        "dataset1": [78, 61, 73, 55],
+        "Labels": ["Forest", "Grassland", "Wetland", "River"],
+        "content": "Illustrative ecosystem scores on a made-up 0-100 scale."
+      },
+      "chart2": {
+        "title": "Example ecosystem benefits",
+        "type": "piechart",
+        "dataset1": [34, 28, 22, 16],
+        "Labels": ["Food", "Water", "Materials", "Recreation"],
+        "content": "Fictional distribution of example ecosystem benefits."
+      }
+    },
+    "population and land": {
+      "name": "Population growth and land demand",
+      "ABOut": "Population change can affect demand for housing, food, transport, and the land needed to support them.",
+      "overview": "Example indicators show how population and land demand might be presented together. All values are fictional.",
+      "Number of Charts": 2,
+      "chart1": {
+        "title": "Example population and built-up land",
+        "type": "bar graph",
+        "dataset1": [22, 27, 31, 37, 42],
+        "Labels": ["2020", "2021", "2022", "2023", "2024"],
+        "content": "Illustrative index for comparing trends, not population counts or land area."
+      },
+      "chart2": {
+        "title": "Example land demand",
+        "type": "piechart",
+        "dataset1": [36, 29, 21, 14],
+        "Labels": ["Housing", "Food", "Transport", "Other"],
+        "content": "Fictional shares of land demand."
+      }
+    },
+    "sustainable development": {
+      "name": "Sustainable development and land",
+      "ABOut": "Sustainable development seeks to improve wellbeing and economic opportunity while caring for land and natural resources.",
+      "overview": "Explore example indicators for balancing livelihoods, land condition, and access to services. Sample values are fictional.",
+      "Number of Charts": 2,
+      "chart1": {
+        "title": "Example sustainability indicators",
+        "type": "bar graph",
+        "dataset1": [71, 64, 83, 58],
+        "Labels": ["Livelihoods", "Land health", "Access", "Efficiency"],
+        "content": "Illustrative indicator scores on a made-up 0-100 scale."
+      },
+      "chart2": {
+        "title": "Example development priorities",
+        "type": "piechart",
+        "dataset1": [32, 28, 24, 16],
+        "Labels": ["Jobs", "Land care", "Infrastructure", "Services"],
+        "content": "Fictional shares used to demonstrate a priorities chart."
+      }
+    },
+    "renewable energy and land": {
+      "name": "Renewable energy and land use",
+      "ABOut": "Renewable energy can reduce reliance on fossil fuels, while projects also need thoughtful land and community planning.",
+      "overview": "This example explores energy sources and land planning. Data shown is fictional and not an energy forecast.",
+      "Number of Charts": 2,
+      "chart1": {
+        "title": "Example renewable energy mix",
+        "type": "bar graph",
+        "dataset1": [36, 29, 21, 14],
+        "Labels": ["Solar", "Wind", "Hydro", "Other"],
+        "content": "Illustrative generation index, not measured energy output."
+      },
+      "chart2": {
+        "title": "Example project land planning",
+        "type": "piechart",
+        "dataset1": [44, 26, 18, 12],
+        "Labels": ["Project area", "Buffer", "Shared use", "Other"],
+        "content": "Fictional allocation for a hypothetical project area."
+      }
+    }
+  }
